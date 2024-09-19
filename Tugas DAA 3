@@ -1,0 +1,57 @@
+Nama : Siti Nurcica
+NIM : 2023071069
+
+Latihan 1: Buat List Mahasiswa
+Buatlah list dengan nama “Mahasiswa” yang berisi nama, NIM, prodi, mata kuliah, tanggal hari ini, dan nama universitas.
+Mahasiswa = ["Siti Nurcica", "12345678", "Informatika", "Desain dan Analisis Algoritma", "20-09-2024", "Universitas Pembangunan Jaya"]
+print(Mahasiswa)
+
+Latihan 2: Cetak NIM dari list Mahasiswa
+print(Mahasiswa[1])
+
+Latihan 3: Cetak Nama Universitas dari list Mahasiswa
+print(Mahasiswa[5])
+
+Latihan 4: Cetak NIM dan Prodi menggunakan slicing
+print(Mahasiswa[1:3])
+
+Latihan 5: Cetak isi list Mahasiswa dengan tambahan "UPJ" di depan
+for item in Mahasiswa:
+    print("UPJ", item)
+
+Latihan 6: Susun Tuple bernama “UPJ”
+Tuple ini berisi "Universitas Pembangunan Jaya".
+UPJ = ("Universitas Pembangunan Jaya",)
+print(UPJ)
+
+Latihan 7: Buat tuple bersarang bernama “nested_tuple”
+nested_tuple = (100, (200, 400, 600), 300, (400, 800))
+print(nested_tuple)
+
+Latihan 8: Buat dictionary berisi Nama, NIM, Prodi, dan Universitas
+mahasiswa_dict = {
+    "Nama": "Siti Nurcica",
+    "NIM": "12345678",
+    "Prodi": "Informatika",
+    "Universitas": "Universitas Pembangunan Jaya"
+}
+print(mahasiswa_dict)
+
+Latihan 9: Buat DataFrame bernama “mhs” dengan data berikut
+import pandas as pd
+
+data = {
+    "No": [1, 2, 3],
+    "Prodi": ["Informatika", "Sistem Informasi", "Teknik Sipil"],
+    "Mahasiswa": [50, 55, 40],
+    "Lakilaki": [30, 30, 30],
+    "Perempuan": [20, 25, 10]
+}
+mhs = pd.DataFrame(data)
+print(mhs)
+
+Latihan 10: Buat Matrix dan lakukan transpose
+import numpy as np
+matrix = np.array([[100, 200, 300], [700, 600, 500], [900, 1000, 800]])
+transpose_matrix = matrix.T
+print(transpose_matrix)n
